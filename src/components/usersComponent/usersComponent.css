@@ -1,0 +1,35 @@
+.usersComponentContainer {
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+}
+
+.search {
+    position: relative;
+}
+
+.searchIcon {
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    font-size: 18px;
+    color: #667085;
+}
+
+.search>input {
+    height: 44px;
+    width: 320px;
+    padding: 10px 33px;
+    border-radius: 8px;
+    border: none;
+    outline: 1px solid #D0D5DD;
+}
+
+.search>input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color: #667085;
+}

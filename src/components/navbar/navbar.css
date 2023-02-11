@@ -1,0 +1,27 @@
+.navbarContainer {
+    background-color: #F9FAFB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
+    height: 72px;
+}
+
+.brandName>h1 {
+    color: #4A4A4A;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.logoutButton>button {
+    background-color: #FFFFFF;
+    padding: 10px 16px;
+    color: #344054;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 8px;
+    border: none;
+    outline: 1px solid #D0D5DD;
+    cursor: pointer;
+}
+
